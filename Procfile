@@ -1,1 +1,1 @@
-web: java -Dserver.port=1111 -jar target/*.war
+web: java -Dserver.port=$PORT -jar target/*.war
