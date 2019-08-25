@@ -1,7 +1,7 @@
 # Configure this Discovery Server
 eureka:
   instance:
-    hostname: localhost
+    hostname: sandeepeurekaserver.herokuapp.com
   client: #Not a client
     registerWithEureka: false
     fetchRegistry: false
